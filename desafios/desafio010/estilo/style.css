@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('/pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: "bebas";
+    src: url('/pacote-projeto-d010/fontes/bebas-neue-semirounded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color:#84e1ad ;
+    margin: 0;
+    padding: 0;
+}
+header#cabeçalho{
+    text-align: center;
+    background-image: linear-gradient(#3cd883,#1a5c38);
+    padding: 20px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+h1#h1_cabeçalho{
+    text-shadow: 3px 3px 7px #00000082;
+    font-family: 'bebas';
+    font-weight: lighter;
+}
+p#h1_paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto 20px auto;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+section {
+    text-align: left;
+    margin:5px 10px -15px 10px;
+}
+section a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px 30px 0px -20px;
+    padding: 4px;
+}
+section a:hover {
+    text-decoration: underline;
+    background-color:#1abe649a;
+    border-radius: 4px;
+}
+h1#h1_main{
+    font-family: "idroid";
+    text-align: left;
+    color: #3a7656;
+    margin: auto;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+main {
+    background-color: #ffffff;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    padding: 0 0 20px 0;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 15px;
+
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto 16px auto 16px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+.subtitulo_main{
+    font-family: "idroid";
+    text-align: left;
+    color: #3a7656;
+    margin: 9px 1px 10px 12px;
+    font-size: 20px;
+    background-image: linear-gradient(90deg,#b0d8c1,transparent);
+    padding-top: auto;
+    padding-left: 8px;
+    padding-right: auto;
+    padding-bottom: auto;
+
+}
+.bots{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin:0 auto;
+}
+
+.imagem_criadora{
+    max-width: 95%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+
+}
+img#bugdroid {
+    height: auto;
+    margin: 10px auto;
+    display: block;
+}
+.video{
+    max-width: 2000px;
+    min-width: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.video iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    border-top: 15px solid #1a5c38;
+    border-right: 30px solid #1a5c38;
+    border-bottom: 15px solid #1a5c38;
+    border-left: 30px solid #1a5c35;
+    align-content: center;
+    box-sizing: border-box;
+}
+.links,
+.links:visited,
+.links:hover,
+.links:active
+.links::after {
+  text-decoration: none;
+  color: #1a5c35;
+  border-radius: 2px;
+  background-color:#84e1ad;
+}
+.links::after{
+      content:"\1F517";
+}
+.lista{
+    margin: 0 20px 10px 20px;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+    background-color: #c5ebd6;
+    border-radius: 10px 10px 10px 10px;
+}
+h1#h1_lista{
+    background-color:#2fa866 ;
+    border-radius: 10px 10px 0 0;
+    color: #ffff;
+    margin: 0;
+    padding: 5px;
+    font-size: 18px;
+}
+p#paragrafo_lista0{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 0;
+}
+p#paragrafo_lista1{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+}
+p#paragrafo_lista2{
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+}
+.lista section ul{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 5px;
+}
+.lista section{
+margin: 5px;
+}
+.lista section ul li::before{
+    content: "✔️ ";
+}
+footer p {
+    text-align: center;
+    background-color: #1a5c35;
+    color: #fff;
+    padding: 5px;
+    margin:0
+}
+abbr{
+    text-decoration: none;
+}
+abbr :hover{
+    color: #1a5c35;
+}
